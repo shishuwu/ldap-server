@@ -3,6 +3,11 @@
 This is a mocked ldap server based on [kwart/ldap-server](https://github.com/kwart/ldap-server)
 
 
+## Docker command line
+
+`docker run -it --rm -p 10389:10389 shishuwu/ldap-server`
+
+`docker run -it --rm -p 10389:10389 -p 10636:10636 shishuwu/ldap-server`
 
 ## Test command line
 
