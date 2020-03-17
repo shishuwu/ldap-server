@@ -86,6 +86,20 @@ sAMAccountName: test
 userPassword: secret
 memberOf: admin
 
+dn: cn=Jason Shi,ou=users,dc=shishuwu,dc=com
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: simulatedMicrosoftSecurityPrincipal
+objectCategory: User
+cn: Jason Shi
+sn: Shi
+uid: jasons
+sAMAccountName: jasons
+userPassword: secret
+memberOf: admin
+
+
 dn: ou=roles,dc=shishuwu,dc=com
 objectclass: top
 objectclass: organizationalUnit
@@ -96,3 +110,4 @@ objectClass: top
 objectClass: groupOfNames
 cn: admin
 member: uid=test,ou=users,dc=shishuwu,dc=com
+member: cn=Jason Shi,ou=users,dc=shishuwu,dc=com
